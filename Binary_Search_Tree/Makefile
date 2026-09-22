@@ -15,3 +15,6 @@ tree.o: tree.c tree.h
 
 clean:
 	rm -f $(OBJS) $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
